@@ -1,15 +1,15 @@
 import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import About from "./pages/About";
+import Cart from "./pages/Cart";
+import Collection from "./pages/Collection";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Order from "./pages/Order";
+import PlaceOrder from "./pages/PlaceOrder";
+import Product from "./pages/Product";
 
-import Home from "@/pages/Home";
-import Collection from "@/pages/Collection";
-import Order from "@/pages/Order";
-import PlaceOrder from "@/pages/PlaceOrder";
-import Product from "@/pages/Product";
-import About from "@/pages/About";
-import Contact from "@/pages/Contact";
-import Cart from "@/pages/Cart";
-import Login from "@/pages/Login";
-import Navbar from "@/components/Navbar";
 
 const App = () => {
   // to understand the md here
