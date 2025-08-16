@@ -78,7 +78,7 @@ const Navbar = () => {
             <p>Back</p>
           </div>
           <NavLink onClick={() => setVisible(false)} to="/">HOME</NavLink>
-          <NavLink onClick={() => setVisible(false)} to="/collection">Collection</NavLink>
+          <NavLink onClick={() => setVisible(false)} to="/collection">COLLECTION</NavLink>
           <NavLink onClick={() => setVisible(false)} to="/about">ABOUT</NavLink>
           <NavLink onClick={() => setVisible(false)} to="/contact">CONTACT</NavLink>
         </div>
